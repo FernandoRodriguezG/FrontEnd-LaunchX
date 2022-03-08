@@ -1,0 +1,180 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.containerPrincipal {
+    width: 1140px;
+    height: 90px;
+    margin: 0 auto;
+}
+.containerMenu {
+    height: 90px;
+    width: 1100px;
+    float: left;
+}
+.menu {
+    background-color: white;
+    float: left;
+    height: 90px;
+    width: 900px;
+}
+ol {
+    padding: 0px;
+    margin: 0px;
+}
+.titulo {
+    margin-right: 150px;
+   color: blue;
+}
+.azul{
+    color: blue;
+    font-size: 18px;
+    font-weight: 800;
+}
+.opMenu {
+    list-style: none;
+    float: left;
+    width: 150px;
+}
+.opMenu > a {
+    text-decoration: none;
+    color: #454545;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-top: 37px;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+.opMenu:hover .subMenu {
+    opacity: 1;
+    display: block;
+    top: 0px;
+}
+.quote {
+    background-color: blue;
+    border: 2px solid blue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 4px 2px;
+    color: white;
+    transition: background-color, color 0.5s linear;
+    float: right;
+    text-transform: uppercase;
+    padding: 15px 23px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+}
+a.quote:hover {
+    background-color: white;
+    color: blue;
+}
+.sigSeccion{
+    width: 50%;
+    height: 511px;
+    float: left;
+}
+.fight{
+    float: left;
+}
+.title{
+    margin-top: 100px;
+    margin-left: 20%;
+    font-size: 45px;
+    color: dodgerblue;
+    font-weight: bold;
+}
+.subText{
+    margin-left:  20%;
+    margin-top: 30px;
+    font-size: 14px;
+    color: gray;
+}
+.anotations{
+    margin-top: 50px;
+    margin-left:  20%;
+    color: blue;
+    font-weight: bold;
+}
+.iconAnotations{
+    color: yellow;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.schedule{
+    margin-top: 30px;
+    margin-left: 20%;
+    color: blue;
+    font-weight: bold;
+}
+.fa-clock{
+    margin-right: 10px;
+}
+.reserva{
+    width: 70%;
+    height: 100px;
+    background-color: white;
+    margin-top: 400px;
+    margin-left: 10%;
+    z-index: 2;
+    position: absolute;
+    border: blue 3px solid;
+    opacity: 0.7;
+}
+.headers{
+    width: 60%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: blue;
+    font-size: 18px;
+}
+.iconSchedule{
+    margin-left: 100px;
+    margin-right: 10px;
+}
+.infoHeaders{
+    width: 60%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 130px;
+    display: inline;
+    float: left;
+}
+.tag{
+    width: 150px;
+    height: 20px;
+    float: left;
+    margin-left: 35px;
+    font-size: 18px;
+}
+.submit{
+     background-color: blue;
+    border: 2px solid blue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 4px 2px;
+    color: white;
+    transition: background-color, color 0.5s linear;
+    float: right;
+    text-transform: uppercase;
+    padding: 15px 23px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+    
+}
+.marcas{
+    margin-top: 512px;
+    margin-left: 20%;
+}
+.logos{
+    width: 175px;
+    height: 150px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
