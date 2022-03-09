@@ -178,3 +178,180 @@ a.quote:hover {
     margin-left: 30px;
     margin-right: 10px;
 }
+.xq{
+    width: 100%;
+}
+.deboVacun{
+    margin-top: 120px;
+    margin-left: 20%;
+    font-size: 42px;
+    color: blue;
+    font-weight: bold;
+}
+.subDebo{
+    margin-top: 30px;
+    margin-left: 20%;
+    color: darkslategrey;
+    font-size: 20px;
+}
+.cuatroCards{
+    margin-left: 17%;
+    margin-top: 80px;
+}
+.card{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right:25px ;
+    box-shadow: 2px 2px 5px #999;
+}
+.parrafoCard{
+margin-top: 25px;
+margin-left: 25px;
+}
+.iconCard{
+    margin-right: 170px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: blue;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.tituloCard{
+    margin-left: 25px;
+}
+.imgPersona{
+    margin-top: 80px;
+    float: left;
+}
+.textBefore{
+    float: left;
+    width: 30%;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 38px;
+    color: blue;
+    font-weight: bold;
+}
+.subBefore{
+    margin-top: 30px;
+    font-size: 18px;
+    color: black;
+    font-weight: 100;
+}
+.desplegablesBefore{
+    float: left;
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.desplegable{
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px #999;
+    height: 33px;
+    color: blue;
+}
+.iconLeft{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    color: blue;
+}
+.iconRight{
+    color: blue;
+    margin-left: 200px;
+}
+.emergencyContact{
+    margin-top: 20px;
+    width: 50%;
+    float: left;
+}
+.nurse{
+    margin-top: 200px;
+    float: left;
+}
+.titleEmergency{
+    font-size: 48px;
+    color: blue;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 20%;
+}
+.subEmergency{
+    margin-left: 20%;
+    margin-top: 30px;
+    color: #454545;
+    font-size: 18px;
+}
+.contactCards{
+    background-color: red;
+    margin-left: 20%;
+    margin-top: 80px;
+}
+.cardContact{
+width: 230px;
+height: 170px;
+float: left;
+box-shadow: 2px 2px 5px #999;
+margin-top: 25px;
+margin-right: 35px; 
+}
+.titleContact{
+    margin-top: 25px;
+    font-size: 20px;
+    color: #454545;
+}
+.infoContact{
+    margin-top: 15px;
+    font-size: 14px;
+}
+.iconContact{
+    float: left;
+    font-size: 35px;
+    color: blue;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.footer{
+    background-color:lightblue;
+    margin-top: 1750px;
+    width: 100%;
+    height: 300px;
+}
+.fLeft{
+    margin-left: 10%;
+    width: 50%;
+    float: left;
+}
+.titFL{
+    margin-top: 30px;
+    font-size: 34px;
+    color: blue;
+    font-weight: bold;
+}
+.subFL{
+    margin-top: 30px;
+}
+.fRight{
+    width: 40%;
+    float: left;
+}
+.optionFooter{
+    float: left;
+    width: 150px;
+}
+.titleOptionFooter{
+    float: left;
+    margin-top: 30px;
+    font-size: 26px;
+    color: blue;
+    font-weight: bold;
+}
+.subFooter{
+    margin-top: 60px;
+    font-size: 16px;
+    color: #454545;
+
+}
