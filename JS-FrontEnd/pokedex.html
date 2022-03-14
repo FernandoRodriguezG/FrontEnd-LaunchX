@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pokedex</title>
+    <link rel="stylesheet" href="pokedex.css">
+    
+</head>
+<body>
+    <h1>Pokedex - LaunchX</h1>
+    <br>
+    Introduce el nombre del pokemon o su numero de pokedex:
+    <input type="text" placeholder="Nombre del pokemon" id="pokeName" name="pokeName">
+    <br>
+    <button onclick="fetchPokemon()">Buscar</button> <br>
+    O si prefieres, introduce un rango para mostrar los pokemon: <br>
+
+    <input type="number" placeholder="Limite inferior" name="limiteInf" id="limiteInf"><br>
+
+    <input type="number" placeholder="Limite superior" name="limiteSup" id="limiteSup"><br>
+    <button onclick="rangoPokemon()">Buscar rango</button> <br>
+<br>
+
+    <img src="pokeball.png" alt="Pokemon" id="pokeImg" width="150px">
+    <div id="datos">
+        
+    </div>
+    <div id="tipos">
+        
+
+    </div>
+    <div id="stats">
+        
+
+    </div>
+    <div id="moves">
+        
+
+    </div>
+    <div id="pokeRango">
+        
+    </div>
+</body>
+<footer>
+    <script src="pokedex.js"></script>
+</footer>
+</html>
