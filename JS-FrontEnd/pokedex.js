@@ -29,29 +29,6 @@ const fetchPokemon = () => {
         }
     });
 }
-const rangoPokemon = () =>{
-    const rango = document.getElementById("pokeRango");
-    rango.innerHTML = '';
-    const limitInf = document.getElementById("limiteInf");
-    let inf = limitInf.value;
-    const limiteSup = document.getElementById("limiteSup");
-    let sup = limiteSup.value;
-    const url = `https://pokeapi.co/api/v2/pokemon?limit=${inf}&offset=${sup}`;
-    fetch(url).then((res) => {
-        if (res.status != "200") {
-            console.log(res);
-            pokeImage("./pokemon-sad.gif")
-        }
-        else {
-            return res.json();
-        }
-    }).then((data) => {
-        if (data) {
-            console.log(data);
-            rangoPokes(data);
-        }
-    });
-}
 
 //Bonus -> (Responsive, Despliegue, Otras rutas de busqueda)
 
@@ -60,26 +37,28 @@ const rangoPokes = (pokemon) =>{
     rango.innerHTML += "Pokemon del rango seleccionado: <br>";
     for(i=0;i<pokemon.results.length;i++){
         rango.innerHTML += pokemon.results[i].name + "<br>";
+        if(i==pokemon.results.length-1){
+            rango.inner
+        }
     }
 }
 
 const pokeDatos = (pokemon) =>{
     const pokeNombre = document.getElementById("datos");
-    pokeNombre.innerHTML += "Datos del pokemon: <br>"+ pokemon.name;
+    pokeNombre.innerHTML += pokemon.id + " - "+pokemon.name.toUpperCase();
     const poketipos = document.getElementById("tipos");
     poketipos.innerHTML += "Tipos: <br>";
     for(i=0;i<pokemon.types.length;i++){
         poketipos.innerHTML += pokemon.types[i].type.name + "<br>";
     }
+    poketipos.innerHTML += "Movimientos:";
     const pokestats = document.getElementById("stats");
-    pokestats.innerHTML += "Estadisticas individuales del pokemon: <br>";
     for(j=0;j<pokemon.stats.length;j++){
         pokestats.innerHTML += pokemon.stats[j].stat.name + " : " + pokemon.stats[j].base_stat + "<br>";
     }
     const moves = document.getElementById("moves");
-    moves.innerHTML += "Movimientos importantes del pokemon: <br>";
     for(k=0;k<10;k++){
-        moves.innerHTML +=  pokemon.moves[k].move.name + "<br>";
+        moves.innerHTML +=  "<li class='list-group-item bg-success'>"+pokemon.moves[k].move.name+"</li>";
     }
 }
 
